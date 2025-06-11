@@ -1,4 +1,4 @@
-VERSION = 5.20.7
+VERSION = 5.24.1
 
 print_version:
 	@echo $(VERSION)
