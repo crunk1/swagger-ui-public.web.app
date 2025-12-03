@@ -1,7 +1,7 @@
 # <a href="https://swagger-ui-public.web.app" target="_blank" rel="noopener noreferrer">swagger-ui-public.web.app</a>
 A publicly hosted [swagger-ui](https://github.com/swagger-api/swagger-ui) with query enabled.
 
-`swagger-ui version 5.29.0`
+`swagger-ui version 5.30.3`
 
 ## Details
 Hosted on Firebase.
