@@ -1,4 +1,4 @@
-VERSION = 5.32.6
+VERSION = 5.32.8
 
 TGZ_URL = https://github.com/swagger-api/swagger-ui/archive/refs/tags/v$(VERSION).tar.gz
 TMPDIR = /tmp/swagger-ui
