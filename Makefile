@@ -32,7 +32,7 @@ $(BUILDDIR)/.built: $(TGZ_PATH)
 	rm -rf $(BUILDDIR)
 	mkdir $(BUILDDIR)
 	tar -xf $(TGZ_PATH) -C $(BUILDDIR) --strip-components 1
-	cd $(BUILDDIR) && npm ci && npm run build
+	cd $(BUILDDIR) && . $$HOME/.nvm/nvm.sh && nvm install && npm ci && npm run build
 	touch $(BUILDDIR)/.built
 
 $(BUILDDIR)/.query_enabled: $(BUILDDIR)/.built
